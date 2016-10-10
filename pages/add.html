@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootstrap admin</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap core CSS -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Main CSS -->
+    <link href="../css/styles.css" rel="stylesheet">
+    <!-- Font-awesome -->
+    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Google-fonts  -->
+    <link href='https://fonts.googleapis.com/css?family=Viga|Changa+One|Squada+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<h1>Bootstrap admin</h1>
+<div class="collapse" id="new-msg">
+  <div class="bg-inverse p-a-1">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="alert alert-success" role="alert">
+                <strong>New message!</strong> You successfully read this important alert message.
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="alert alert-success" role="alert">
+                <strong>New message!</strong> You successfully read this important alert message.
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="alert alert-success" role="alert">
+                <strong>New message!</strong> You successfully read this important alert message.
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="alert alert-success" role="alert">
+                <strong>New message!</strong> You successfully read this important alert message.
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="collapse" id="search">
+    <div class="bg-inverse p-a-1">
+        <div class="row sm-search">
+            <form class="form-inline">
+                <input class="form-control" type="text" placeholder="Search">
+                <button class="btn btn-info-outline" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="collapse" id="nav">
+    <ul class="sm-nav">
+        <li><a href="dashboard.html"><i class="fa fa-home"></i>Dashboard</a></li>
+        <li><a href="add.html"><i class="fa fa-plus-square" aria-hidden="true"></i>Add</a></li>
+        <li><a href="product.html"><i class="fa fa-cube"></i>Product</a></li>
+        <li><a href="manage.html"><i class="fa fa-industry" aria-hidden="true"></i>Manage</a></li>
+        <li><a data-toggle="collapse" href="#collapse-components-sm" aria-expanded="false" aria-controls="collapse-components-sm"><i class="fa fa-bell"></i>Components</a></li>
+        <div class="collapse" id="collapse-components-sm">
+            <ul>
+                <li><a href="buttons.html">Buttons</a></li>
+                <li><a href="forms.html">Forms</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="tables.html">Tables</a></li>
+            </ul>
+        </div>
+    </ul>
+</div>
+<div class="collapse" id="cart">
+  <div class="bg-inverse p-a-1">
+    <div class="row">
+        <div class="col-lg-2 cart-item">
+            <div class="card text-xs-center">
+                <div class="card-header">
+                    #1
+                </div>
+                <div class="card-block">
+                    <img class="img-fluid img-circle center-block" src="../img/sample_img.png" alt="white-lion">
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="#" role="button" class="btn btn-success">Buy</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 cart-item">
+            <div class="card text-xs-center">
+                <div class="card-header">
+                    #2
+                </div>
+                <div class="card-block">
+                    <img class="img-fluid img-circle center-block" src="../img/sample_img.png" alt="white-lion">
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="#" role="button" class="btn btn-success">Buy</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 cart-item">
+            <div class="card text-xs-center">
+                <div class="card-header">
+                    #2
+                </div>
+                <div class="card-block">
+                    <img class="img-fluid img-circle center-block" src="../img/sample_img.png" alt="white-lion">
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="#" role="button" class="btn btn-success">Buy</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 cart-item">
+            <div class="card text-xs-center">
+                <div class="card-header">
+                    #4
+                </div>
+                <div class="card-block">
+                    <img class="img-fluid img-circle center-block" src="../img/sample_img.png" alt="white-lion">
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="#" role="button" class="btn btn-success">Buy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<nav class="navbar navbar-static-top navbar-dark bg-inverse">
+    <h2>Menu</h2>
+    <a class="navbar-brand" href="#">Bootstrap Admin</a>
+    <button class="navbar-toggler navbar-brand collapsed" type="button" data-toggle="collapse" data-target="#new-msg" aria-expanded="false">
+        <i class="fa fa-envelope"></i>
+    </button>
+    <button class="navbar-toggler navbar-brand collapsed" type="button" data-toggle="collapse" data-target="#cart" aria-expanded="false">
+        <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+    </button>
+    <button class="navbar-toggler navbar-brand collapsed hidden-md-up" type="button" data-toggle="collapse" data-target="#nav" aria-expanded="false">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </button>
+    <button class="navbar-toggler navbar-brand collapsed hidden-md-up" type="button" data-toggle="collapse" data-target="#search" aria-expanded="false">
+        <i class="fa fa-search" aria-hidden="true"></i>
+    </button>
+</nav>
+
+<div class="sidebar hidden-sm-down" role="navigation">
+    <ul class="nav nav-sidebar">
+        <li><a href="../dashboard.html"><i class="fa fa-home"></i>Dashboard</a></li>
+        <li><a href="add.html"><i class="fa fa-plus-square" aria-hidden="true"></i>Add</a></li>
+        <li><a href="product.html"><i class="fa fa-cube"></i>Product</a></li>
+        <li><a href="manage.html"><i class="fa fa-industry" aria-hidden="true"></i>Manage</a></li>
+        <li><a data-toggle="collapse" href="#collapse-components" aria-expanded="false" aria-controls="collapse-components"><i class="fa fa-bell"></i>Components</a></li>
+        <div class="collapse" id="collapse-components">
+            <ul>
+                <li><a href="buttons.html">Buttons</a></li>
+                <li><a href="forms.html">Forms</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="tables.html">Tables</a></li>
+            </ul>
+        </div>
+        <li>
+            <form class="form-inline">
+                <input class="form-control" type="text" placeholder="Search">
+                <button class="btn btn-info-outline" type="submit">Search</button>
+            </form>
+        </li>
+    </ul>
+</div>
+
+<div class="content-wrapper col-sm-9 col-md-10">
+    <div class="container-fluid">
+    <div class="row-expanded">
+        <h2>Add</h2>
+        <div class="icon-wrapper">
+            <i class="fa fa-plus-square"></i>
+            <hr>
+        </div>
+        <div class="add">
+            <div class="row-expanded">
+                <div class="col-lg-12">
+                    <div class="form-inline">
+                        <div class="form-group">
+                            <label for="exampleInputName2">Name</label>
+                            <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail2">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail2">Surname</label>
+                            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+                        </div>
+                        <label class="file">
+                            <input type="file" id="sfile">
+                            <span class="file-custom" id="file-c"></span>
+                        </label>
+                    </div>
+                    <img src="" alt="file" id="file">
+                    <div class="form-group row textarea-form">
+                        <label for="inputPassword3" class="col-sm-3 form-control-label">Note</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" id="inputPassword3"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-inline">
+                        <div class="form-group has-success">
+                            <label class="form-control-label" for="inputSuccess1">Success</label>
+                        <input type="text" class="form-control form-control-success" id="inputSuccess1">
+                        </div>
+                        <div class="form-group has-warning">
+                            <label class="form-control-label" for="inputWarning1">Warning</label>
+                        <input type="text" class="form-control form-control-warning" id="inputWarning1">
+                        </div>
+                    </div>
+                    <div class="checkboxes">
+                        <label class="c-input c-checkbox">
+                            <input type="checkbox">
+                            <span class="c-indicator"></span>
+                                Check this custom checkbox
+                            </label>
+                        <label class="c-input c-checkbox">
+                        <input type="checkbox">
+                        <span class="c-indicator"></span>
+                            Check this custom checkbox
+                        </label>
+                        <label class="c-input c-checkbox">
+                        <input type="checkbox">
+                        <span class="c-indicator"></span>
+                            Check this custom checkbox
+                        </label>
+                    </div>
+                    <div class="radios">
+                        <label class="c-input c-radio">
+                            <input id="radio1" name="radio" type="radio">
+                            <span class="c-indicator"></span>
+                            Toggle this custom radio
+                        </label>
+                        <label class="c-input c-radio">
+                            <input id="radio2" name="radio" type="radio">
+                            <span class="c-indicator"></span>
+                            Or toggle this other custom radio
+                        </label>
+                            <label class="c-input c-radio">
+                            <input id="radio2" name="radio" type="radio">
+                            <span class="c-indicator"></span>
+                            Or toggle this other custom radio
+                        </label>
+                    </div>
+                    <select class="c-select">
+                        <option selected>Open this select menu</option>
+                        <option value="1">Bootstrap</option>
+                        <option value="2">Foundation</option>
+                        <option value="3">MDL</option>
+                    </select>
+                    <input type="submit" name="submit" value="Submit" class="btn btn-primary btn-lg">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- jQuery -->
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Tether JS -->
+<script src="../bower_components/tether/dist/js/tether.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- Morris JS -->
+<script src="../bower_components/bootstrap/dist/js/morris.min.js"></script>
+<!-- Raphael JS -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                
+                reader.onload = function (e) {
+                    $('#file').attr('src', e.target.result);
+                }
+                
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    
+        $("#sfile").change(function(){
+            readURL(this);
+        });
+
+    });
+</script>
+
+
+</body>
+</html>

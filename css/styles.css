@@ -1,0 +1,313 @@
+.nav-container {
+    text-align: center;
+}
+.nav-container ul {
+    display: inline-block;
+}
+
+h1, nav > h2{
+    display: none;
+}
+
+.sidebar {
+    position: absolute;
+    width: 250px;
+    background-color: #373a3c;
+    height: 160%;
+}
+
+#collapse-components ul{
+    padding-left: 0;
+}
+
+.sidebar .nav li a{
+    padding: 15px;
+}
+
+@media(max-width: 544px){
+    #search .sm-search .btn{
+        margin-top: 15px;
+    }
+}
+
+#search .sm-search{
+    text-align: center;
+    margin: 0 10px;
+}
+
+.sidebar .nav li form{
+    margin-top: 10px;
+}
+
+.sidebar .nav li form input{
+    margin-left: 4px;
+    width: 150px;
+}
+
+.sidebar .nav li a,
+#collapse-components ul li a,
+.sm-nav li a{
+    display: block;
+    padding: 15px 0 15px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.sm-nav{
+    background-color: #373a3c;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#collapse-components-sm > ul{
+    margin: 0;
+    padding: 0;
+}
+
+.sm-nav li a:hover,
+.sidebar .nav li a:hover,
+#collapse-components ul li a:hover{
+    background-color: #5bc0de;
+}
+
+nav > div > form{
+    display: inline-block;
+}
+
+.sm-nav li a .fa,
+.sidebar .nav li a .fa{
+    font-size: 24px;
+    padding-right: 8px;
+}
+
+.content-wrapper{
+    margin: 0 0 0 250px;
+}
+
+@media(max-width: 768px){
+    .content-wrapper{
+        margin: 0;
+    }
+}
+
+.icon-wrapper{
+    text-align: center;
+    padding: 10px;
+}
+
+.icon-wrapper .fa{
+    font-size: 90px;
+}
+
+.content-wrapper h2{
+    display: none;
+}
+
+.content-wrapper h4{
+    padding: 5px 20px 5px 15px;
+}
+
+.last-products .card img{
+    width: 90px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#graph > div,
+#graph2 > div{
+    text-align: center;
+}
+
+.add .checkboxes,
+.add .radios{
+    margin-top: 20px;
+}
+
+.add select,
+.add input[type="submit"]{
+    margin-top: 20px;
+}
+
+.add img{
+    max-height: 300px;
+}
+
+.add label.file span{
+    margin-top: -7px;
+}
+
+.product img{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product table tbody  tr th{
+    text-align: center;
+}
+
+.product .card-header h4{
+    font-size: 32px;
+    padding: 0;
+}
+
+.product-desc > p{
+    font-size: 28px;
+}
+
+.product .btn-actions{
+    margin-top: 20px;
+}
+
+.product .btn-actions .btn{
+    margin: 8px;
+}
+
+#graph3 > div{
+    text-align: center;
+}
+
+.manage table{
+    margin-top: 20px;
+}
+
+.manage table img{
+    width: 60px;
+}
+
+.manage table thead tr th.actions,
+.manage table tbody tr td.actions{
+    text-align: center;
+}
+
+.content-wrapper > h3{
+    text-align: center;
+    font-size: 32px;
+    padding: 20px;
+}
+
+.buttons-wrapper h4,
+.forms-wrapper h4{
+    margin-left: -15px;
+    padding-top: 20px;
+}
+
+#popovers > h4{
+    text-align: left;
+}
+
+#basic-buttons .btn,
+#outline-buttons .btn,
+#fa-buttons .btn,
+#fa-buttons-text .btn,
+#button-group .btn,
+#dropdown-buttons .btn,
+#sizing .btn{
+    margin-top: 8px;
+}
+
+#fa-buttons-text .fa{
+    font-size: 24px;
+    padding-right: 4px;
+}
+
+#fa-buttons .fa {
+    font-size: 28px;
+}
+
+#fa-buttons .btn-lg{
+    margin-top: 8px;
+}
+
+#sizing .btn-block{
+    margin-top: 10px;
+}
+
+.cart-item{
+    color: #000;
+}
+
+.cart-item p{
+    font-size: 14px;
+}
+
+.cart-item img{
+    width: 60px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#labels span,
+#pill-labels span{
+    padding: 8px;
+}
+#popovers{
+    text-align: center;
+}
+
+#popovers .popover-warning{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#images img{
+    width:120px;
+    display: inline;
+}
+
+.last-products img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#media-table img{
+    width:50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#media-table table{
+    text-align: center;
+}
+
+#media-table table .fa{
+    font-size: 28px;
+}
+
+#media-table table thead tr th{
+    text-align: center;
+}
+
+#labels .label,
+#pill-labels .label,
+#tooltips .btn,
+#popovers .btn{
+    margin-top: 4px;
+}
+
+#images img{
+    margin-top: 10px;
+}
+
+#media-table > table > tbody > tr > td.switch-data > div > label{
+    margin-left: 0;
+}
+
+@media(max-width: 1492px){
+    #file-c{
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 1125px){
+    .add .form-group{
+        display: block;
+        margin: 20px 0;
+    }
+    .add .form-group input{
+        width: 70%;
+    }
+}
